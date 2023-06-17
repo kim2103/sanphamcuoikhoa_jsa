@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="assets/styles/index.css" />
     <script
       src="https://kit.fontawesome.com/efbd4616bb.js"
       crossorigin="anonymous"
@@ -24,7 +24,7 @@
   </head>
   <body>
     <div class="main-container">
-      <div class="nav-bar">
+      <div class="nav-bar" id="nav-bar">
         <p class="name">Summer</p>
         <div class="nav-bar-item">
           <a href="index.html" class="nav-bar-link">Home</a>
@@ -34,17 +34,72 @@
         </div>
 
         <div class="nav-bar-item" id="icon">
-          <i class="fas fa-users"></i>
+          <a href="pages/login.html"> <i class="fas fa-users"></i></a>
           <i class="fas fa-shopping-cart"></i>
         </div>
       </div>
       <div class="hero-section">
+        <div class="text">
+          <h2>Summer is comming</h2>
+          <p>
+            Summer is the season that is often associated with sunshine,
+            beaches, and a carefree lifestyle. It is a time where people can
+            take a break from their regular routine and enjoy the warm weather
+            by spending time outside with family and friends.
+          </p>
+          <a class="shop-now" type="submit">Shop now</a>
+        </div>
+        <div class="icon-fb">
+          <p><i class="fab fa-facebook-f"></i></p>
+          <p><i class="fab fa-facebook-f"></i></p>
+          <p><i class="fab fa-facebook-f"></i></p>
+        </div>
         <div class="overlay"></div>
+      </div>
+      <div class="new-product">
+        <h2>New product</h2>
+        <div id="products"></div>
+      </div>
+      <div class="footer">
+        <div class="footer-text">
+          <h4>About Us</h4>
+          <hr />
+          <p>
+            From informative blog posts to engaging videos, and from top-quality
+            products to unbeatable customer support, we're here to help you
+            every step of the way.
+          </p>
+        </div>
+        <div class="useful-links">
+          <h4>Useful Links</h4>
+          <hr />
+          <p><a href="" class="links">Home</a></p>
+          <p><a href="" class="links">Shop</a></p>
+          <p><a href="" class="links">About</a></p>
+          <p><a href="" class="links">FAQ</a></p>
+        </div>
+        <div class="contact">
+          <h4>Contact</h4>
+          <hr />
+          <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+          <p><i class="fas fa-phone mr-3"></i> + 84 234 567 808</p>
+          <p><i class="fas fa-print mr-3"></i> + 84 234 567 894</p>
+          <p><i class="fas fa-home mr-3"></i> VietNam, VN 700000, VN</p>
+        </div>
+        <div class="product">
+          <h4>Products</h4>
+          <hr />
+          <p>Jetsetter</p>
+          <p>Odyssey</p>
+          <p>Explorer</p>
+          <p>Trekker</p>
+        </div>
       </div>
     </div>
     <script
       src="https://kit.fontawesome.com/efbd4616bb.js"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js"></script>
   </body>
 </html>
