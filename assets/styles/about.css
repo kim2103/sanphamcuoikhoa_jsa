@@ -14,7 +14,7 @@
   transition: 0.4s;
   font-style: italic;
   font-weight: 600;
-  margin-left: 20vh;
+  margin-left: 10vh;
   margin-right: 20vh;
 }
 
@@ -30,7 +30,7 @@
   overflow: hidden;
   width: 130vh;
   text-align: justify;
-  margin-left: 20vh;
+  margin-left: 10vh;
   margin-right: 20vh;
   font-size: 15px;
 }
