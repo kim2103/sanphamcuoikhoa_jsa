@@ -15,48 +15,48 @@ let products = {
     {
       name: "MATRIX 1999 DECK",
       price: "780.000đ - 1.470.000đ",
-      image: "assets/images/image-1.png",
+      image: "../assets/images/image-1.png",
     },
 
     {
       name: "RAEDA DECK",
       price: "780.000đ - 1.470.000đ",
-      image: "assets/images/image-2.png",
+      image: "../assets/images/image-2.png",
     },
 
     {
       name: "MUSTY DECK",
       price: "780.000đ - 1.470.000đ",
-      image: "assets/images/image-3.png",
+      image: "../assets/images/image-3.png",
     },
 
     {
       name: "TRISTIQUE DECK",
       price: "780.000đ - 1.470.000đ",
-      image: "assets/images/image-4.png",
+      image: "../assets/images/image-4.png",
     },
     {
       name: "MATRIX 1999 DECK",
       price: "780.000đ - 1.470.000đ",
-      image: "assets/images/image-5.png",
+      image: "../assets/images/image-5.png",
     },
 
     {
       name: "RAEDA DECK",
       price: "780.000đ - 1.470.000đ",
-      image: "assets/images/image-6.png",
+      image: "../assets/images/image-6.png",
     },
 
     {
       name: "MUSTY DECK",
       price: "780.000đ - 1.470.000đ",
-      image: "assets/images/image-7.png",
+      image: "../assets/images/image-7.png",
     },
 
     {
       name: "TRISTIQUE DECK",
       price: "780.000đ - 1.470.000đ",
-      image: "assets/images/image-8.png",
+      image: "../assets/images/image-8.png",
     },
   ],
 };
