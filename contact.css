@@ -1,0 +1,85 @@
+.main {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url("https://wallpaperaccess.com/full/444571.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+}
+
+.header {
+  padding-top: 10px;
+  margin-bottom: 2%;
+}
+
+form {
+  color: #1f6e8c;
+}
+
+input {
+  border: solid #c2dedc 3px;
+  border-radius: 5px;
+  height: 30px;
+  width: 250px;
+}
+
+#mess {
+  height: 100px;
+  width: 250px;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+}
+
+label {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.input {
+  border-radius: 40%;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 15px;
+  margin: auto;
+  padding: auto;
+}
+
+button {
+  padding: 0.6rem 3rem;
+  background: #19a7ce;
+  border: 2px solid #19a7ce;
+  border-radius: 12rem;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
